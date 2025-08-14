@@ -63,6 +63,7 @@ body {
   grid-row-gap: 70px;
   margin-top: 25px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .movie-image {
