@@ -108,3 +108,22 @@ color: red;
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 1300px) {
+  .movie-container {
+    grid-template-columns: repeat(3, 300px);
+  }
+}
+@media (max-width: 900px) {
+  .movie-container {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+@media (max-width: 700px) {
+  .movie-container {
+    grid-template-columns: repeat(1, 300px);
+  }
+  .movie-search-container h1 {
+width: 500px;
+}
+}
